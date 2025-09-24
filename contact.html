@@ -3,36 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Mon Portfolio</title>
+    <title>Bama Sanogo - Développeur Full-Stack</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="Logo de mon portfolio" class="logo">
-        <nav id="nav-menu">
-            <a href="index.html">Accueil</a>
-            <a href="about.html">À propos</a>
-            <a href="contact.html">Contact</a>
+        <nav class="container">
+            <div class="logo">SB</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="competences.html">Compétences</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
-        <button id="nav-toggle">☰</button>
     </header>
-
-    <main>
-        <h1>Contactez-moi</h1>
-        <p>Pour toute demande, n'hésitez pas à me contacter via le formulaire ci-dessous.</p>
-        <form action="send-message.php" method="POST">
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Envoyer</button>
-        </form>
-    </main>
-    <footer>
-        <p>&copy; 2025 Sanogo Bama. Tous droits réservés.</p>
-    </footer>
+     <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-moi</h2>
+            <div class="contact-content">
+                <p>Vous avez un projet en tête ? N'hésitez pas à me contacter pour en discuter !</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span>📧</span>
+                        <span>asanogobama3@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <span>📱</span>
+                        <span>+226 57 61 54 35</span>
+                    </div>
+                    <div class="contact-item">
+                        <span>📍</span>
+                        <span>Bobo-Dioulasso, Burkina Faso</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/bama-sanogo-99b283297" title="LinkedIn">💼</a>
+                    <a href="https://codeBama2000.github.io/portfolio/" title="GitHub">🐙</a>
+                    <a href="#" title="Twitter">🐦</a>
+                    <a href="mailto:asanogobama3@gmail.com" title="Email">✉️</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <footer>
+            <p>&copy; 2025 Sanogo Bama. Tous droits réservés.</p>
+        </footer>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
