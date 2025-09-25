@@ -39,8 +39,15 @@
 
         .logo {
             font-size: 1.5rem;
-            font-weight: bold;
-            color: #667eea;
+            font-weight: 600;
+            color: #333;
+        }
+        .logo img {
+            height: 48px;      
+            width: auto;       
+            object-fit: contain;
+            vertical-align: middle;
+            margin-right: 8px; 
         }
 
         .nav-links {
